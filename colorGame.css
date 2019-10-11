@@ -5,7 +5,8 @@ body {
 }
 
 h1 {
-	background-color: steelblue;
+	/*background-color: mediumslateblue;*/
+	background: linear-gradient(to right, #0cc916, #4287f5, #f54298, #ede545)!important;
 	color: white;
 	text-align: center;
 	font-weight: normal;
@@ -36,7 +37,7 @@ button {
 	font-family: "Century Gothic";
 	font-weight: 700;
 	font-size: inherit;
-	color: steelblue;
+	color: #4287f5;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	background: none;
@@ -55,7 +56,7 @@ button {
 
 button:hover {
 	color: white;
-	background-color: steelblue;
+	background-color: #0cc916;
 }
 
 .square {
@@ -81,6 +82,6 @@ button:hover {
 }
 
 .selected {
-	background: steelblue;
+	background: #f54298;
 	color: white;
 }
